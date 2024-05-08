@@ -15,7 +15,9 @@
 │   │   └── silver      # intermediate processed data
 │   ├── features        # model features
 │   ├── notebooks       # jupyter notebooks
-│   ├── scripts         # scripts for training and testing models
+│   ├── scripts         # training and testing scripts
+│   │   ├── tests       # scripts for running tests on models
+│   │   └── training    # scripts for training models
 │   └── utils           # utility scripts
 ├── ui                  # user interface for interacting with model api
 ├── Makefile            # Makefile to automate common development tasks
